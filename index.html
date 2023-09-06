@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Add Your favicon here -->
+    <!--<link rel="icon" href="img/favicon.ico">-->
+
+    <title>INSPINIA - Landing Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Animation CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!--
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    -->
+
+    <!-- NEW Delete the old one href-->
+    <link href="font-awesome/css/fontawesome.min.css" rel="stylesheet">
+    <link href="font-awesome/css/solid.min.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body id="page-top" class="landing-page">
+<div class="navbar-wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-expand-md" role="navigation">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">CONOCE CYL</a>
+            <div class="navbar-header page-scroll">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="nav-link page-scroll" href="#page-top">Home</a></li>
+                    <li><a class="nav-link page-scroll" href="#demography">Demografía</a></li>
+                    <li><a class="nav-link page-scroll" href="#jobs">Empleo</a></li>
+                    <li><a class="nav-link page-scroll" href="#production">Producción</a></li>
+                    <li><a class="nav-link page-scroll" href="#tourism">Turismo</a></li>
+                    <li><a class="nav-link page-scroll" href="#greenenergy">Renovables</a></li>                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div id="inSlider" class="carousel slide" data-ride="carousel" >
+    <ol class="carousel-indicators">
+        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#inSlider" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Pasado<br/>
+                        presente y futuro,<br/>
+                        de Castilla y León<br/>
+                        en datos</h1>                        
+                    <p>Un relato de la situación de Castilla y León a través de datos e imágenes.</p>
+                    
+                </div>
+                <div class="carousel-image wow zoomIn">
+                    <img src="img/map_castilla_y_leon_res.png" alt="laptop"/>
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back one"></div>
+
+        </div>
+        <div class="carousel-item">
+            <div class="container">
+                <div class="carousel-caption blank">
+                    <h1>We create meaningful <br/> interfaces that inspire.</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back two"></div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#inSlider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#inSlider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<section id="demography" class="container services">
+    <div class="row">
+        <div class="col-sm-3">
+            <h2>Extensos</h2>
+            <p>Somos la región más grande de España y una de las más grandes de Europa con 94.226 km².</p>
+            <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p>            
+            <canvas id="doughnutChart" height="140"></canvas>            
+        </div>
+        <div class="col-sm-3">
+            <h2>Despoblados</h2>
+            <p>Somos 2.372.640 habitantes. 25 habitantes por cada km². En la comunidad vecina de Madrid se reparten ese mismo km² entre 5.418 personas.</p>
+            <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p>            
+            <!--<canvas id="bubbleChart" height="440"></canvas>            -->
+            <a href="https://idecyl.jcyl.es/geonetwork/srv/spa/catalog.search#/metadata/SPAGOBCYLCITDTSPDPDR" target="_blank"/><img src="img/map_densidity_small.png" alt="densidad"/></a>
+        </div>
+        <div class="col-sm-3">
+            <h2>Fuente de alimento</h2>
+            <p>Nuestras 1.932.851 vacas proporcionan leche y carne a toda España</p>
+            <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p>
+            <img src="img/cow.jpg" alt="laptop"/>
+        </div>
+        <div class="col-sm-3">
+            <h2>Descanso</h2>
+            <p>Disponemos de 10.689 plazas hoteleras que aseguran el descanso y el disfrute. <br> En nuestra tierra se encuentra un enorme patrimonio cultural y natural.</p>
+            <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p>
+            <a href="https://idecyl.jcyl.es/geonetwork/srv/spa/catalog.search#/metadata/SPAGOBCYLPCUDTSPSBICI" target="_blank"/><img src="img/map_heritage_small.png" alt="densidad"/></a>
+
+        </div>
+    </div>
+</section>
+
+<section  class="container features">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1>Demografía<br/> <span class="navy"> a lo largo de los últimos 20 años</span> </h1>
+            <p>El descenso de la población es  generealizada en todas las provincias.</p>
+            <p>Las zonas sombreadas en tonos rojizos indican pérdida de población. Prácticamente en el 90% del territorio sufrimos esta pérdida.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 text-center wow fadeInLeft">
+            <div>
+                <i class="fa-solid fa-people-group features-icon"></i>
+                <h2>Descendencia poblacional</h2>
+                <p>En 22 años hemos perdido más de 100.000 habitantes, no habiendo cambiado en ningún año esa tendencia.</p>
+                <canvas id="populationTotalDetailed" height="440"></canvas>          
+                <h2>Evolución poblacional en España</h2>
+                <canvas id="populationTotalDetailedSpain" height="440"></canvas>          
+            </div>            
+        </div>
+        <div class="col-md-6 text-center  wow zoomIn">            
+            <a href="img/growth-08-18_original.png"><img src="img/growth-08-18_original.png" alt="dashboard" class="img-fluid"></a>
+            <p><a href="https://commons.wikimedia.org/w/index.php?curid=80921027 mapa crecimiento población">De Lanoyta - Trabajo propio, CC BY-SA 4.0</a></p>
+        </div>
+        <div class="col-md-3 text-center wow fadeInRight">
+            <div>
+                <i class="fa fa-bar-chart features-icon"></i>
+                <h2>Población por edad</h2>
+                <p>Somos una población envejecida con un serio problema de remplazo.</p>
+                <canvas id="populationByAge" height="440"></canvas>                                                          
+                <h2>Población por edad en España</h2>
+                <p>La situación es España no es mucho mejor aunque si se puede apreciar un mayor número de Españoles en edad infantil.</p>
+                <canvas id="populationByAgeSpain" height="440"></canvas>                                                                          
+            </div>                        
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 text-center wow fadeInRight">
+
+        </div>
+        <div class="cold-md-8 text-center wow zo">
+             <div class="m-t-lg">                
+                <img src="img/born_48.png">
+                <h2>Nacimientos</h2>
+                <p>Hemos pasado de 18.000 nuevos niños en el año 2000 a 13.000 en el 2022. En Soria, Palencia, Zamora prácticamente no existe natalidad. </p>
+                <canvas id="populationBorn" height="100"></canvas>          
+            </div>   
+        </div>
+        <div class="col-md-2 text-center wow fadeInRight">
+                
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2 text-center wow fadeInRight">
+
+        </div>
+        <div class="cold-md-8 text-center wow zo">
+             <div class="m-t-lg">                
+                <img src="img/grave98.png">
+                <h2>Decesos</h2>
+                <p>En varias provincias los decesos superan o prácticamente igualan los nacimientos lo que impacta gravemente en la curva poblacional. Se puede visualizar 
+                el incremento de mortalidad durante el COVID.</p>
+                <canvas id="populationDecease" height="100"></canvas>                              
+            </div>   
+        </div>
+        <div class="col-md-2 text-center wow fadeInRight">
+
+        </div>
+    </div>
+
+    
+</section>
+
+
+<section id="testimonials" class="navy-section testimonials" style="margin-top: 0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center wow zoomIn">
+                <i class="fa fa-comment big-icon"></i>
+                <h1>
+                    En qué trabajamos
+                </h1>
+                <div class="testimonials-text">
+                    <i>En Castilla y León tiene gran importancia los servicios, las actividades relacionadas con la alimentación desde el sector primario hasta su transformación y la construcción.</i>
+                </div>
+                <small>
+                    <strong>12.02.2014 - Andy Smith</strong>
+                </small>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="jobs" class="gray-section team">
+    <div class="container">        
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Empleo</h1>
+                <p>Un 9,1% de la población se encuentra sin trabajo, es decir 100.650 castellano y leoneses.</p>
+            </div>
+        </div>
+        <div class="row features-block">
+            <div class="col-lg-6 features-text wow fadeInLeft">
+                <h2>Activos y parados.</h2>
+                <p>Con respecto a los datos de castellano leoneses ocupados y parados prácticamente no existe brecha por sexo</p>            
+                <p>Ávila y Zamora encabezan las provincias con mayor número de parados siendo Segovia en la que hay menos personas en búsqueda de trabajo.</p>            
+            </div>
+            <div class="col-lg-6 text-right wow fadeInRight">
+                 <p>Datos en miles</p>
+                 <table class="table table-bordered">
+                    <thead class="table_header">
+                    <tr>
+                        <th>Sexo</th>
+                        <th>Activos</th>
+                        <th>Ocupados</th>
+                        <th>Parados</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="table_header">Varón</td>
+                        <td>599,71</td>
+                        <td>552,25</td>
+                        <td>47,46</td>
+                    </tr>
+                    <tr>
+                        <td class="table_header">Mujer</td>
+                        <td>511,3</td>
+                        <td>458,11</td>
+                        <td>53,19</td>
+                    </tr>
+                    <tr>
+                        <td class="table_header">Total</td>
+                        <td>1.111,01</td>
+                        <td>1.010,36</td>
+                        <td>100,65</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <p>Tasa de paro por provincias</p>    
+                <table class="table table-bordered">
+                    <thead class="table_header">
+                    <tr>                        
+                        <th>Ávila</th>
+                        <th>Burgos</th>
+                        <th>León</th>
+                        <th>Palencia</th>
+                        <th>Salam.</th>
+                        <th>Segovia</th>
+                        <th>Soria</th>
+                        <th>Vallad.</th>
+                        <th>Zamora</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>                        
+                        <td class="highlated_data">11,86</td>                                                                
+                        <td>7,67</td>                    
+                        <td>9,24</td>                    
+                        <td>8,59</td>                    
+                        <td>9,99</td>                    
+                        <td>6,64</td>                    
+                        <td>8,00</td>                    
+                        <td>8,85</td>                    
+                        <td class="highlated_data">11,48</td>
+                     </tr>   
+                    </tbody>
+                </table>
+
+            <!--<img src="img/dashboard.png" alt="dashboard" class="img-fluid float-right"> -->
+            </div>
+        </div>
+
+
+
+
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>A qué nos dedicamos</h1>
+                <p>Servicios y construcción copan el mayor número de puestos de trabajo.<br> También destacamos en las actividades relacionadas con la alimentación, desde el sector primario hasta el de transformación</p>
+                
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-4 wow fadeInLeft">
+                <div class="team-member">
+                    <img src="img/livestockcircle.png" class="img-fluid rounded-circle img-small" alt="">
+                    <h4><span class="navy">8.500 actividades</span> Ganadería</h4>
+                    <p>Destacan Segovia y Salamanca en número de actividades ganaderas.</p>                    
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member wow zoomIn">
+                    <img src="img/trade.png" class="img-fluid rounded-circle" alt="">
+                    <h4><span class="navy">122.607 actividades</span> Comercio, restaurantes y hospedaje</h4>
+                    <p>Valladolid con más de 22000 trabajadores ofrece una amplia gama de negocios relacionados con los servicios.</p>                    
+                </div>
+            </div>
+            <div class="col-sm-4 wow fadeInRight">
+                <div class="team-member">
+                    <img src="img/builders.jfif" class="img-fluid rounded-circle img-small" alt="">
+                    <h4><span class="navy">38.359 actividades</span> Construcción</h4>
+                    <p>León y Valladolid liberan el número de castellano leoneses dedicados a la construcción.</p>                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center m-t-lg m-b-lg">
+                <p>Número de Licencias del I.A.E. por Tipo de cuota y Epígrafes de actividad</p>                    
+                <p>Datos del 2.021</p>                    
+                <table class="table table-bordered">
+                    <thead class="table_header">
+                    <tr class="table_lot_of_columns">   
+                        <th>#</th>                   
+                        <th>GANADERIA INDEPENDIENTE</th>
+                        <th>ENERGIA Y AGUA</th>
+                        <th>EXTRACCION Y TRANSFORMACION DE MINERALES NO ENERGETICOS</th>
+                        <th>INDUSTRIAS TRANSFORMADORAS DE LOS METALES</th>
+                        <th>OTRAS INDUSTRIAS MANUFACTURERAS</th>
+                        <th>CONSTRUCCION</th>
+                        <th>COMERCIO, RESTAURANTES Y HOSPEDAJE</th>
+                        <th>TRANSPORTE Y COMUNICACIONES</th>
+                        <th>INSTITUCIONES FINANCIERAS, SEGUROS</th>                        
+                        <th>ACTIVIDADES ARTISTICAS</th>                        
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>           
+                        <td>Ávila</td>             
+                        <td>1.095</td>                                                                
+                        <td>631</td>                    
+                        <td>109</td>                    
+                        <td>331</td>                    
+                        <td>730</td>                    
+                        <td>3.042</td>                    
+                        <td>10.929</td>                    
+                        <td>947</td>                    
+                        <td>5.019</td>
+                        <td>140</td>
+                     </tr>                           
+                     <tr>           
+                        <td>Burgos</td>             
+                        <td>702</td>                                                                
+                        <td>801</td>                    
+                        <td>315</td>                    
+                        <td>1.002</td>                    
+                        <td>1.717</td>                    
+                        <td>5.577</td>                    
+                        <td>17.533</td>                    
+                        <td>2.723</td>                    
+                        <td>12.787</td>
+                        <td>303</td>
+                     </tr>                        
+                     <tr>           
+                        <td>León</td>             
+                        <td>878</td>                                                                
+                        <td>616</td>                    
+                        <td>449</td>                    
+                        <td>871</td>                    
+                        <td>2.158</td>                    
+                        <td>7.687</td>                    
+                        <td>23.501</td>                    
+                        <td>3.079</td>                    
+                        <td>11.067</td>
+                        <td>352</td>
+                     </tr>   
+                     <tr>           
+                        <td>Palencia</td>             
+                        <td>336</td>                                                                
+                        <td>556</td>                    
+                        <td>154</td>                    
+                        <td>371</td>                    
+                        <td>617</td>                    
+                        <td>2.422</td>                    
+                        <td>7.794</td>                    
+                        <td>1.222</td>                    
+                        <td>3.282</td>
+                        <td>121</td>
+                     </tr>   
+                     <tr>           
+                        <td>Salamanca</td>             
+                        <td>1.304</td>                                                                
+                        <td>826</td>                    
+                        <td>237</td>                    
+                        <td>641</td>                    
+                        <td>2.035</td>                    
+                        <td>4.908</td>                    
+                        <td>17.128</td>                    
+                        <td>2.190</td>                    
+                        <td>10.544</td>
+                        <td>351</td>
+                     </tr>   
+                     <tr>           
+                        <td>Segovia</td>             
+                        <td>1.844</td>                                                                
+                        <td>298</td>                    
+                        <td>199</td>                    
+                        <td>371</td>                    
+                        <td>842</td>                    
+                        <td>2.977</td>                    
+                        <td>8.763</td>                    
+                        <td>1.170</td>                    
+                        <td>4.065</td>
+                        <td>261</td>
+                     </tr>   
+                    <tr>           
+                        <td>Soria</td>             
+                        <td>727</td>                                                                
+                        <td>349</td>                    
+                        <td>104</td>                    
+                        <td>253</td>                    
+                        <td>606</td>                    
+                        <td>1.565</td>                    
+                        <td>5.241</td>                    
+                        <td>574</td>                    
+                        <td>3.347</td>
+                        <td>95</td>
+                     </tr> 
+                     <tr>           
+                        <td>Valladolid</td>             
+                        <td>744</td>                                                                
+                        <td>1.107</td>                    
+                        <td>260</td>                    
+                        <td>1.030</td>                    
+                        <td>2.300</td>                    
+                        <td>6.658</td>                    
+                        <td>22.446</td>                    
+                        <td>3.299</td>                    
+                        <td>17.558</td>
+                        <td>640</td>
+                     </tr>       
+                     <tr>           
+                        <td>Zamora</td>             
+                        <td>966</td>                                                                
+                        <td>916</td>                    
+                        <td>207</td>                    
+                        <td>410</td>                    
+                        <td>966</td>                    
+                        <td>3.163</td>                    
+                        <td>9.272</td>                    
+                        <td>1.138</td>                    
+                        <td>4.350</td>
+                        <td>113</td>
+                     </tr>       
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Somos una tierra exportadora</h1>
+                <p>Año tras año la tendencia es positiva con respecto a la exportación de productos destacando un fuerte incremento en los materiales de transporte.</p>
+            </div>
+        </div>
+        <div class="row features-block">
+            <div class="col-lg-2 features-text wow fadeInLeft">
+                
+                
+            </div>
+            <div class="col-lg-8 text-right m-t-n-lg wow zoomIn">
+                <!--<img src="img/iphone.jpg" class="img-fluid" alt="dashboard">-->
+                <p>Exportaciones en miles de euros. Corresponden al mes de mayo</p>
+                <canvas id="productExport" height="340"></canvas>
+                <p>Importaciones en miles de euros. Corresponden al mes de mayo</p>    
+                <canvas id="productImport" height="340"></canvas>
+            </div>
+            <div class="col-lg-2 features-text text-right wow fadeInRight">
+                <!--
+                <small>INSPINIA</small>
+                <h2>Perfectly designed </h2>
+                <p>INSPINIA Admin Theme is a premium admin dashboard template with flat design concept. It is fully responsive admin dashboard template built with Bootstrap 3+ Framework, HTML5 and CSS3, Media query. It has a huge collection of reusable UI components and integrated with latest jQuery plugins.</p>
+                <a href="" class="btn btn-primary">Learn more</a>
+                -->
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<section id="testimonials" class="navy-section testimonials" style="margin-top: 0">
+
+    <!--
+    <div class="container">        
+        <div class="row">
+            <div class="col-lg-12 text-center wow zoomIn">
+                <i class="fa fa-comment big-icon"></i>
+                <h1>
+                    What our users say
+                </h1>
+                <div class="testimonials-text">
+                    <i>
+                    </i>
+                </div>
+                <small>
+                    <strong>12.02.2014 - Andy Smith</strong>
+                </small>
+            </div>
+        </div>
+    </div>
+    -->
+</section>
+
+<section id="production" class="comments gray-section" style="margin-top: 0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Somos la despensa de Europa</h1>
+                <p>Donec sed odio dui. Etiam porta sem malesuada. </p>
+            </div>
+        </div>
+        <div class="row features-block">
+            <div class="col-lg-4">
+                <div class="bubble">
+                    Cada español consume una media de 70 litros de leche. En el año 2022 producimos 806.570.937 litros de leche bovina con lo que alimentamos a más de 11 millones de personas.
+                </div>
+                <div class="comments-avatar">
+                    <a href="" class="float-left">
+                        <img alt="image" src="img/milk_icon2.png">
+                    </a>
+                    <div class="media-body">
+                        <div class="commens-name">
+                            Lacteos
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="bubble_big">
+                    Nuestros ganaderos cuidan más de ocho millones de gallinas ponedoras las cuáles ponen una media de un huevo al día. Gestionamos más del 18% de este tipo de gallineas en España (Unos 50 millones). Según datos del 2018 de los 1120 millones de huevos puestos en España en Castilla y León se cubrieron 209. <a href="https://avicultura.com/la-avicultura-factura-en-castilla-y-leon-348-millones-de-euros-al-ano-con-450-granjas-productoras-de-carne-y-109-dedicadas-a-la-puesta/">avicultura.com</a>
+                </div>
+                <div class="comments-avatar">
+                    <a href="" class="float-left">                                                                
+                        <img alt="image" src="img/hen.svg">
+                    </a>
+                    <div class="media-body">
+                        <div class="commens-name">
+                            Gallinas
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="bubble">
+                    Algunos de los cultivos con mayores superficie: pastos, trigo blando, cebada,girasol,maiz convencional o avena.
+                </div>
+                <div class="comments-avatar">
+                    <a href="" class="float-left">
+                        <img alt="image" src="img/cultivation.png">
+                    </a>
+                    <div class="media-body">
+                        <div class="commens-name">
+                            Cultivos
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<section  class="container features">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1>Evolución<br/> <span class="navy"> de la producción ganadera y agrícola</span> </h1>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 text-center wow fadeInLeft">
+            <div>
+                <i class="fa fa-cheese features-icon"></i>
+                <h2>Producción láctea</h2>
+                <p>Existe una tendencia a la baja debido a la falta de relevo generacional y cierre de las instalaciones ganaderas por los altos costes. En los últimos
+                tres años hemos perdido más de 4 millones de litros de leche bobina.</p>
+                <canvas id="dairyEvolution" height="340"></canvas>          
+            </div>
+            <div class="m-t-lg">
+                <!--
+                <i class="fa fa-bar-chart features-icon"></i>
+                <h2>Producción por provincias</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>                
+                <canvas id="dairyLocality1" height="440"></canvas>          
+                -->
+            </div>
+        </div>
+        <div class="col-md-6 text-center  wow zoomIn">
+            <img src="img/cultivosCyl3D_perspective.png" alt="dashboard" class="img-fluid"><a href="https://mcsncyl.itacyl.es/visor_datos">Mapa de cultivos y suelos naturales: ITACyl</a>
+            <img src="img/Leyenda_itacyl_cultivos.png" alt="dashboard" class="img-fluid">
+        </div>
+        <div class="col-md-3 text-center wow fadeInRight">
+            <div>
+                <i class="fa fa-envelope features-icon"></i>
+                <h2>Explotaciones ganaderas bobino</h2>
+                                        
+                <canvas id="facilitiesCattle" height="340"></canvas>          
+            </div>
+            <div class="m-t-lg">
+                <!--
+                <i class="fa fa-google features-icon"></i>
+                <h2>Producción por provincias</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>                
+                <canvas id="dairyLocality2" height="440"></canvas>          
+                -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+        <div class="col-md-2 text-center wow fadeInLeft">
+        
+        </div>
+        <div class="col-md-6 text-center  wow zoomIn">
+            <h2>Producción lactea por provincias</h2>
+            <p>León y Palencia son las dos provincias con mayor producción en el 2022 aunque León desciende con respecto a años anteriores.</p>                
+            <canvas id="dairyLocality1" height="340"></canvas>          
+        </div>
+        <div class="col-md-2 text-center wow fadeInRight">
+                
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+        <div class="col-md-3 text-center wow fadeInLeft">
+            <div>                
+                <img alt="image" src="img/hen.svg" class="features-icon-custom">
+                <h2>Gallinas ponedoras</h2>
+                <p>Hasta el 2021, último año con datos recogidos, se mantiene e incluso se ha incrementado el número de gallinas ponedoras.</p>
+                          
+            </div>
+            <div class="m-t-lg">
+                <i class="fa fa-bar-chart features-icon"></i>
+                <h2>Producción por provincias</h2>
+                <p>Valldolid es con diferencia la provincia con mayor número de gallineas ponedoras.</p>                
+                          
+            </div>
+        </div>
+        <div class="col-md-6 text-center  wow zoomIn">
+            <p>Gallinas ponedoras por provincias</p>
+            <canvas id="layingHens" height="440"></canvas>
+        </div>
+        <div class="col-md-3 text-center wow fadeInRight">
+            <div>
+                <i class="fa fa-envelope features-icon"></i>
+                <h2>Explotaciones ganaderas bobino</h2>
+                <p>TODO</p>
+                <!--<p>Somos una población envejecida con un serio problema de remplazo.</p>  -->
+                      
+            </div>
+            <div class="m-t-lg">
+                <i class="fa fa-google features-icon"></i>
+                <h2>Producción por provincias</h2>
+                <p>TODO</p>                
+                      
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="tourism" class="timeline gray-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Somos naturaleza</h1>                            
+            </div>
+        </div>
+        <div class="row features-block">
+
+            <div class="col-lg-12">
+                <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg">
+                            <i class="fa fa-tree "></i>                            
+                        </div>
+
+                        <div class="vertical-timeline-content">
+                            <h2>Espacios naturales</h2>
+                            <p><p>Disponemos de una amplia red de espacios naturales como el Lago de Sanabria, la Montaña Palentina, los Arribes del Duero, o el parque del Cañón del Rio Lobo</p>
+                            </p>
+                            <a href="https://idecyl.jcyl.es/vcig/?service=https://idecyl.jcyl.es/geoserver/ps/wms&layer=ps:ren_cyl&type=wms&style=ps:ren_cyl_sigmena&bbox=160000,4440000,605000,4790000&srs=EPSG:25830" target="_blank"  class="btn btn-xs btn-primary" > Mapa</a>
+                            <span class="vertical-date"> </span>
+                        </div>
+                    </div>
+
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg">
+                            <i class="fa fa-tree "></i>                            
+                        </div>
+
+                        <div class="vertical-timeline-content">                            
+                            <img alt="image" src="img/Las+Medulas_mirador+de+Orellan.jpg">
+                            <span class="vertical-date"> Mirador de Orellán <br/>  </span>
+                        </div>
+                    </div>
+
+
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg">
+                            <i class="fa fa-monument"></i>
+                        </div>
+
+                        <div class="vertical-timeline-content">
+                            <h2>Somos monumentales</h2>
+                            <p>Somos historia viva. Puedes encontrar cientos de monumentos.</p>
+                             <table class="table table-bordered">
+                                <thead class="table_header">
+                                <tr>
+                                    <th>Iglesias</th>
+                                    <th>Palacios</th>
+                                    <th>Castillos</th>
+                                    <th>Murallas</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>                                    
+                                    <td>609</td>
+                                    <td>109</td>
+                                    <td>173</td>
+                                    <td>28</td>
+                                </tr>
+                                </tbody>
+                            </table>   
+                            <a href="#" class="btn btn-xs btn-primary"> More info</a>
+                            <span class="vertical-date">   </span>
+                        </div>
+                    </div>
+
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg">
+                            <i class="fa fa-monument "></i>                            
+                        </div>
+
+                        <div class="vertical-timeline-content">                            
+                            <img alt="image" src="img/LE_Catedral_foto.jpg">
+                            <span class="vertical-date"> Catedral León <br/>  </span>
+                        </div>
+                    </div>
+
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg">
+                            <i class="fa fa-suitcase-rolling"></i>
+                        </div>
+
+                        <div class="vertical-timeline-content">
+                            <h2>Dónde descansar</h2>
+                            <p>Disponemos de una amplia variedad de alojamientos.</p>
+
+                                <table class="table table-bordered">
+                                    <thead class="table_header">
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Albergues</th>
+                                        <th>Alojamientos rural</th>
+                                        <th>Hoteles</th>
+                                        <th>Campings</th>
+                                        <th>Emp. turismo activo</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>                                    
+                                        <td>Ávila</td>
+                                        <td>15</td>
+                                        <td>996</td>
+                                        <td>147</td>
+                                        <td>15</td>
+                                        <td>25</td>
+                                    </tr>                                    
+                                    <tr>                                    
+                                        <td>Burgos</td>
+                                        <td>74</td>
+                                        <td>469</td>
+                                        <td>283</td>
+                                        <td>17</td>
+                                        <td>11</td>
+                                    </tr>
+                                    <tr>                                    
+                                        <td>León</td>
+                                        <td>126</td>
+                                        <td>544</td>
+                                        <td>411</td>
+                                        <td>37</td>
+                                        <td>41</td>
+                                    </tr>                                    
+                                    <tr>                                    
+                                        <td>Palencia</td>
+                                        <td>34</td>
+                                        <td>255</td>
+                                        <td>104</td>
+                                        <td>4</td>
+                                        <td>16</td>
+                                    </tr>                                    
+                                    <tr>                                    
+                                        <td>Salamanca</td>
+                                        <td>19</td>
+                                        <td>574</td>
+                                        <td>251</td>
+                                        <td>20</td>
+                                        <td>16</td>
+                                    </tr>
+                                    <tr>                                    
+                                        <td>Segovia</td>
+                                        <td>23</td>
+                                        <td>456</td>
+                                        <td>153</td>
+                                        <td>6</td>
+                                        <td>50</td>
+                                    </tr>                                    
+                                    <tr>                                    
+                                        <td>Soria</td>
+                                        <td>16</td>
+                                        <td>388</td>
+                                        <td>130</td>
+                                        <td>8</td>
+                                        <td>16</td>
+                                    </tr>                                    
+                                    <tr>                                    
+                                        <td>Valladolid</td>
+                                        <td>18</td>
+                                        <td>209</td>
+                                        <td>152</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                    </tr>                                        
+                                    <tr>                                    
+                                        <td>Zamora</td>
+                                        <td>11</td>
+                                        <td>278</td>
+                                        <td>102</td>
+                                        <td>4</td>
+                                        <td>6</td>
+                                    </tr>        
+                                    </tbody>
+                                </table>   
+                            
+                        </div>
+                    </div>
+
+
+                    <div class="vertical-timeline-block">
+                        <div class="vertical-timeline-icon navy-bg">
+                            <i class="fa fa-monument"></i>                            
+                        </div>
+
+                        <div class="vertical-timeline-content">                                                        
+                            <span class="vertical-date"> Evolución del número de tusitas <br/> <small>Ine.es</small> </span>
+                            <canvas id="tourists" height="140"></canvas>            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<section id="greenenergy" class="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Líderes en energías renovables</h1>
+                <p>La región es la comunidad autónoma con mayor producción eólica y de energías renovables de nuestro país </p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-5 col-lg-offset-1 features-text">
+                <small>Redeia</small>
+                <h2>Informe del sistema eléctrico español 2022</h2>
+                <i class="fa fa-sun big-icon float-right"></i>
+                <p>Castilla y León es el origen del 22,5% de los GWh de energía eólica que se produjeron en 2022 en nuestro país tras aumentar un 4% su producción eléctrica, hasta los 13.793 GWh. Este dato posiciona a la región como la autonomía española que más emplea el viento para generar electricidad y la que cuenta con la mayor participación de tecnologías renovables en el mix autonómico, con una cuota del 89,7% del total. </p>
+            </div>
+            <div class="col-lg-5 features-text">
+                <small></small>
+                <h2>Potencia fotovoltaica instalada</h2>
+                <i class="fa fa-bolt big-icon float-right"></i>                
+                    <canvas id="solarEnergy" height="140"></canvas>            
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-5 col-lg-offset-1 features-text">
+                <small></small>
+                <h2>Evolución de la potencia</h2>
+                <i class="fa fa-bar-chart big-icon float-right"></i>
+                    <canvas id="solarEnergyEvolution" height="140"></canvas>            
+            </div>
+            <div class="col-lg-5 features-text">
+                <h2>Evolución del número de instalaciones</h2>                
+                <i class="fa fa-bar-chart big-icon float-right"></i>
+                <canvas id="facilitiesSolar" height="140"></canvas>                        
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--
+<section id="pricing" class="pricing">
+    <div class="container">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>App Pricing</h1>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 wow zoomIn">
+                <ul class="pricing-plan list-unstyled">
+                    <li class="pricing-title">
+                        Retos
+                    </li>
+                    <li class="pricing-desc">
+                        Castilla y León tiene muchos retos 
+                    </li>
+                    <li class="pricing-price">
+                        <span>$16</span> / month
+                    </li>
+                    <li>
+                        Dashboards
+                    </li>
+                    <li>
+                        Projects view
+                    </li>
+                    <li>
+                        Contacts
+                    </li>
+                    <li>
+                        Calendar
+                    </li>
+                    <li>
+                        AngularJs
+                    </li>
+                    <li>
+                        <a class="btn btn-primary btn-xs" href="#">Signup</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 wow zoomIn">
+                <ul class="pricing-plan list-unstyled selected">
+                    <li class="pricing-title">
+                        Standard
+                    </li>
+                    <li class="pricing-desc">
+                        Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.
+                    </li>
+                    <li class="pricing-price">
+                        <span>$22</span> / month
+                    </li>
+                    <li>
+                        Dashboards
+                    </li>
+                    <li>
+                        Projects view
+                    </li>
+                    <li>
+                        Contacts
+                    </li>
+                    <li>
+                        Calendar
+                    </li>
+                    <li>
+                        AngularJs
+                    </li>
+                    <li>
+                        <strong>Support platform</strong>
+                    </li>
+                    <li class="plan-action">
+                        <a class="btn btn-primary btn-xs" href="#">Signup</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 wow zoomIn">
+                <ul class="pricing-plan list-unstyled">
+                    <li class="pricing-title">
+                        Premium
+                    </li>
+                    <li class="pricing-desc">
+                        Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.
+                    </li>
+                    <li class="pricing-price">
+                        <span>$160</span> / month
+                    </li>
+                    <li>
+                        Dashboards
+                    </li>
+                    <li>
+                        Projects view
+                    </li>
+                    <li>
+                        Contacts
+                    </li>
+                    <li>
+                        Calendar
+                    </li>
+                    <li>
+                        AngularJs
+                    </li>
+                    <li>
+                        <a class="btn btn-primary btn-xs" href="#">Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row m-t-lg">
+            <div class="col-lg-12 text-center m-t-lg">
+                <p>*Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. <span class="navy">Various versions</span>  have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+-->
+<section id="contact" class="gray-section contact">
+    <div class="container">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Datos abiertos</h1>
+                <p>Esta web se ha desarrollado con datos abiertos del portal de la Junta de Castilla y León así como del INE.</p>
+            </div>
+        </div>
+        <!--
+        <div class="row m-b-lg justify-content-center">
+            <div class="col-lg-3 ">
+                <address>
+                    <strong><span class="navy">Company name, Inc.</span></strong><br/>
+                    795 Folsom Ave, Suite 600<br/>
+                    San Francisco, CA 94107<br/>
+                    <abbr title="Phone">P:</abbr> (123) 456-7890
+                </address>
+            </div>
+            <div class="col-lg-4">
+                <p class="text-color">
+                    Consectetur adipisicing elit. Aut eaque, totam corporis laboriosam veritatis quis ad perspiciatis, totam corporis laboriosam veritatis, consectetur adipisicing elit quos non quis ad perspiciatis, totam corporis ea,
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="mailto:test@email.com" class="btn btn-primary">Send us mail</a>
+                <p class="m-t-sm">
+                    Or follow us on social platform
+                </p>
+                <ul class="list-inline social-icon">
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    -->
+        <div class="row">
+            <div class="col-lg-12 text-center m-t-lg m-b-lg">
+                <p><strong>&copy; 2023</strong><br/> </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/pace.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/inspinia.js"></script>
+
+<!-- ChartJS-->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
+<!--<script src="js/plugins/chartJs/Chart.min.js"></script>-->
+<script src="js/demo/chartjs-demo.js"></script>
+    
+
+
+</body>
+</html>
