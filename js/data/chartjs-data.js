@@ -507,5 +507,44 @@ var touristsOptions = {
 var ctxTouristsData = document.getElementById("tourists").getContext("2d");    
 new Chart(ctxTouristsData, {type: 'line', data: touristsData, options:touristsOptions});
 
+//********************************************
+
+const pigsData = {
+  labels: ["Ávila","Burgos","León","Palencia","Salamanca","Segovia","Soria","Valladolid","Zamora"],
+  datasets: [{
+        label: 'Explotaciones ganaderas porcino',
+        data: [159784,274813,115088,34153,249095,563064,333675,250236,370695],                     
+        hoverOffset: 4
+    }]
+};
+var pigsOptions = {
+        responsive: true
+};
+
+var ctxPigsData = document.getElementById("pigs").getContext("2d");    
+new Chart(ctxPigsData, {type: 'doughnut', data: pigsData, options:pigsOptions});
+
+//********************************************
+
+
+const surfaceData = {
+  labels: ["España","Castilla y León"],
+  datasets: [{
+        label: 'Superficie agraria (ha)',
+        data: [23913682,5277137],                     
+        hoverOffset: 4
+    }]
+};
+var surfaceOptions = {
+        responsive: true
+};
+
+var ctxSurfaceData = document.getElementById("surface").getContext("2d");    
+new Chart(ctxSurfaceData, {type: 'doughnut', data: surfaceData, options:surfaceOptions});
+
+//********************************************
+
+
+
 });
 
