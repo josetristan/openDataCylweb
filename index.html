@@ -9,7 +9,7 @@
     <!-- Add Your favicon here -->
     <!--<link rel="icon" href="img/favicon.ico">-->
 
-    <title>INSPINIA - Landing Page</title>
+    <title>Conoce CYL: Un relato de la situación de Castilla y León a través de datos e imágenes</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -57,11 +57,10 @@
         </div>
     </nav>
 </div>
-<div id="inSlider" class="carousel slide" data-ride="carousel" >
-    <ol class="carousel-indicators">
-        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-        <li data-target="#inSlider" data-slide-to="1"></li>
-    </ol>
+
+
+
+<div class="carousel slide" data-ride="carousel" >    
     <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
             <div class="container">
@@ -77,10 +76,12 @@
                     <img src="img/map_castilla_y_leon_res.png" alt="laptop"/>
                 </div>
             </div>
-            <!-- Set background for slide in css -->
+   
             <div class="header-back one"></div>
 
         </div>
+-->        
+        <!--
         <div class="carousel-item">
             <div class="container">
                 <div class="carousel-caption blank">
@@ -88,11 +89,12 @@
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
                     <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
                 </div>
-            </div>
-            <!-- Set background for slide in css -->
+            </div>        
             <div class="header-back two"></div>
         </div>
-    </div>
+        -->
+    </div> 
+    <!--
     <a class="carousel-control-prev" href="#inSlider" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -101,33 +103,31 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
-</div>
+    -->
+ </div> 
+
 
 <section id="demography" class="container services">
     <div class="row">
         <div class="col-sm-3">
             <h2>Extensos</h2>
-            <p>Somos la región más grande de España y una de las más grandes de Europa con 94.226 km².</p>
-            <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p>            
+            <p>Somos la región más grande de España y una de las más grandes de Europa con 94.226 km².</p>            
             <canvas id="doughnutChart" height="140"></canvas>            
         </div>
         <div class="col-sm-3">
             <h2>Despoblados</h2>
             <p>Somos 2.372.640 habitantes. 25 habitantes por cada km². En la comunidad vecina de Madrid se reparten ese mismo km² entre 5.418 personas.</p>
-            <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p>            
-            <!--<canvas id="bubbleChart" height="440"></canvas>            -->
+                    
             <a href="https://idecyl.jcyl.es/geonetwork/srv/spa/catalog.search#/metadata/SPAGOBCYLCITDTSPDPDR" target="_blank"/><img src="img/map_densidity_small.png" alt="densidad"/></a>
         </div>
         <div class="col-sm-3">
             <h2>Fuente de alimento</h2>
-            <p>Nuestras 1.932.851 vacas proporcionan leche y carne a toda España</p>
-            <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p>
-            <img src="img/cow.jpg" alt="laptop"/>
+            <p>Nuestras 1.932.851 vacas proporcionan leche y carne a toda España</p>            
+            <img src="img/cow.png" alt="laptop"/>
         </div>
         <div class="col-sm-3">
             <h2>Descanso</h2>
-            <p>Disponemos de 10.689 plazas hoteleras que aseguran el descanso y el disfrute. <br> En nuestra tierra se encuentra un enorme patrimonio cultural y natural.</p>
-            <p><a class="navy-link" href="#" role="button">Details &raquo;</a></p>
+            <p>Disponemos de 10.689 plazas hoteleras que aseguran el descanso y el disfrute. <br> En nuestra tierra se encuentra un enorme patrimonio cultural y natural.</p>            
             <a href="https://idecyl.jcyl.es/geonetwork/srv/spa/catalog.search#/metadata/SPAGOBCYLPCUDTSPSBICI" target="_blank"/><img src="img/map_heritage_small.png" alt="densidad"/></a>
         </div>
     </div>
@@ -1121,40 +1121,7 @@
                 <h1>Datos abiertos</h1>
                 <p>Esta web se ha desarrollado con datos abiertos del portal de la Junta de Castilla y León así como del INE.</p>
             </div>
-        </div>
-        <!--
-        <div class="row m-b-lg justify-content-center">
-            <div class="col-lg-3 ">
-                <address>
-                    <strong><span class="navy">Company name, Inc.</span></strong><br/>
-                    795 Folsom Ave, Suite 600<br/>
-                    San Francisco, CA 94107<br/>
-                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                </address>
-            </div>
-            <div class="col-lg-4">
-                <p class="text-color">
-                    Consectetur adipisicing elit. Aut eaque, totam corporis laboriosam veritatis quis ad perspiciatis, totam corporis laboriosam veritatis, consectetur adipisicing elit quos non quis ad perspiciatis, totam corporis ea,
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <a href="mailto:test@email.com" class="btn btn-primary">Send us mail</a>
-                <p class="m-t-sm">
-                    Or follow us on social platform
-                </p>
-                <ul class="list-inline social-icon">
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    -->
+        </div>       
         <div class="row">
             <div class="col-lg-12 text-center m-t-lg m-b-lg">
                 <p><strong>&copy; 2023</strong><br/> </p>
@@ -1174,7 +1141,7 @@
 <!-- ChartJS-->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-<script src="js/data/chartjs-data.js"></script>
+<script src="js/data/chartjs-data.min.js"></script>
     
 
 
